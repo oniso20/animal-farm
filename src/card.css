@@ -1,0 +1,46 @@
+.cardStyle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 250px;
+    margin-bottom: 1rem;
+}
+
+#image {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.card-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+#like-info {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-content: space-between;
+
+}
+
+#likes {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+}
+
+#add-button {
+    padding: 0 20px;
+    border: 0;
+    background: none;
+}
