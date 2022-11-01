@@ -4,14 +4,26 @@
     align-items: center;
     flex-direction: column;
     width: 200px;
-    height: 250px;
-    margin-bottom: 1rem;
+    height: 270px;
+    margin: 0.7rem;
+    padding: 10px;
+    background: linear-gradient(145deg, #f0f0f0, #cacaca);
+    box-shadow: 20px 20px 60px #bebebe,
+        -20px -20px 60px #ffffff;
 }
 
 #image {
     display: flex;
     justify-items: center;
     align-items: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+span {
+    font-size: 1.5rem;
+    color: red;
+    margin-right: 5px;
 }
 
 .card-info {
@@ -20,8 +32,8 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-    border: 1px solid black;
-    border-radius: 5px;
+    /* border: 1px solid black;
+    border-radius: 5px; */
 }
 
 #like-info {

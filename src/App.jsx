@@ -15,13 +15,15 @@ class App extends Component {
   render() {
 
     const animalsList = animals.map((animal) => {
-      return <Card key={animal.name} name={animal.name} likes={animals.likes} />
+      return <Card key={animal.name} name={animal.name} likes={animal.likes} />
     })
     return (
-        <main className='container'>
-          {/* <Search /> */}
-            {animalsList}
-        </main>
+        <div className='outer-container'>
+            <Search />
+          <main className='container'>
+              {animalsList}
+          </main>
+        </div>
     );
   }
 }

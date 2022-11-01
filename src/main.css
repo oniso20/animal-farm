@@ -5,3 +5,11 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
+
+.outer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: auto;
+}

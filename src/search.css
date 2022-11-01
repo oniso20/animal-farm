@@ -5,3 +5,7 @@
     flex-direction: column;
     margin: 2rem;
 }
+
+input {
+    padding: 10px 10px;
+}
