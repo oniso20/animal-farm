@@ -60,6 +60,7 @@ export const animals = [
   { name: 'kangaroo', likes: 0 },
   { name: 'koala', likes: 0 },
   { name: 'komodo-dragon', likes: 0 },
+  { name: 'kouprey', likes: 0 },
   { name: 'kudu', likes: 0 },
   { name: 'lemur', likes: 0 },
   { name: 'leopard', likes: 0 },
