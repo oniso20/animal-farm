@@ -27,6 +27,21 @@ class App extends Component {
       }
     })
   }
+  addDislikeHandler = (name) => {
+    this.setState(state => {
+      const updatedArray = state.animals.map(animal => {
+        if (animal.name === name) {
+          return {...animal, dislikes:animal.dislikes + 1}
+        } else {
+          return animal
+        }
+      });
+      return {
+        animals: updatedArray
+      }
+    })
+  }
+
   removeHandler = (name) => {
     const updatedArray = this.state.animals.filter(animal => animal.name !== name)
     this.setState({animals: updatedArray})
@@ -47,7 +62,9 @@ class App extends Component {
       key={animal.name} 
       name={animal.name} 
       likes={animal.likes} 
+      dislikes={animal.dislikes} 
       removeCard={() => this.removeHandler(animal.name)} 
+      addDislikes={() => this.addDislikeHandler(animal.name)} 
       addLikes={() => this.addHandler(animal.name)} />
     })
 

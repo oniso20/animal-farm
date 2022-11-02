@@ -10,8 +10,13 @@ const Card = (props) => {
             <div className="card-info">
                 <h2>{props.name}</h2>
                 <div id="like-info">
+                <button
+                    onClick={props.addLikes}
+                    className="button" id="add-button">Dislikes</button>
                     <div id="likes">
-                        <span>&#10084;</span>
+                        <span
+                        onClick={props.addLikes} 
+                        >😌</span>
                         <h4>{props.likes}</h4>
                     </div>
                     <button
