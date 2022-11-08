@@ -20,7 +20,7 @@ const Card = (props) => {
             +like
           </button>
           <div id="likes">
-            <span class="material-symbols-outlined">{heartSymbol}</span>
+            <span className="material-symbols-outlined">{heartSymbol}</span>
             <h4>{props.likes}</h4>
           </div>
           <button
