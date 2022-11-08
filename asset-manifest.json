@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/animal-farm/static/css/main.cc4e41d4.css",
+    "main.js": "/animal-farm/static/js/main.d98f068e.js",
+    "index.html": "/animal-farm/index.html",
+    "main.cc4e41d4.css.map": "/animal-farm/static/css/main.cc4e41d4.css.map",
+    "main.d98f068e.js.map": "/animal-farm/static/js/main.d98f068e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cc4e41d4.css",
+    "static/js/main.d98f068e.js"
+  ]
+}
