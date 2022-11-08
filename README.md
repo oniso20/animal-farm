@@ -1,3 +1,21 @@
+# The Animal Farm Project
+
+The animal farm project is an excellent exercise to deeply understand building cards, working with props and state. Also it helps in understanding why the map method is a game changer when working in React.
+
+**See Site:**
+
+![alt text](image/animal-farm.jpg "Animal farm site")
+
+### What can I do on the page?
+
+- You can view animals and their pictures
+- Like and dislike animal cards
+- Delete cards
+
+**Visit the Animal Farm page:**
+
+https://oniso20.github.io/animal-farm/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
