@@ -1,6 +1,7 @@
 import React from "react";
 
 const Card = (props) => {
+  let heartSymbol = props.likes >= 0 ? "favorite" : "heart_broken";
   return (
     <div className="cardStyle">
       <div id="image">
@@ -19,9 +20,7 @@ const Card = (props) => {
             +like
           </button>
           <div id="likes">
-            <span class="material-symbols-outlined">
-              {props.likes >= 0 ? "favorite" : "heart_broken"}
-            </span>
+            <span class="material-symbols-outlined">{heartSymbol}</span>
             <h4>{props.likes}</h4>
           </div>
           <button
