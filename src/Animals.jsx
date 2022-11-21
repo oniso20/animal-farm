@@ -6,6 +6,7 @@ import "./main.css";
 import Card from "./Card";
 import { animals } from "./data";
 import { emoji } from "./emoji";
+import Nav from "./Nav";
 
 class Animals extends Component {
   state = {
@@ -80,8 +81,13 @@ class Animals extends Component {
 
     return (
       <div className="outer-container">
+        <Nav />
         <div className="search">
-          <h1>{this.state.animals.length} Animals</h1>
+          <h2>
+            Browse through our catalogue of{" "}
+            <span>{this.state.animals.length}</span> animals and show some{" "}
+            <span>&#10084;</span> to your favorites.
+          </h2>
           <input
             onChange={this.searchHandler}
             type="text"

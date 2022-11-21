@@ -1,19 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Cantora+One&display=swap');
+
 .search {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin: 2rem;
+    margin: 1rem 0 0 2rem;
+    background: rgba(255, 255, 255, 0.25);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(4.5px);
+    -webkit-backdrop-filter: blur(4.5px);
+    border-radius: 10px;
+    padding: 1rem;
 }
 
-.search h1 {
-    font-family: Futura;
-    background-color: #070707;
-    -webkit-background-clip: text;
-    -moz-background-clip: text;
-    background-clip: text;
-    color: transparent;
-    text-shadow: rgba(245, 245, 245, 0.5) 3px 5px 1px;
+.search h2 {
+    font-family: 'Cantora One', Futura;
+}
+
+.search span {
+    color: red;
 }
 
 input {

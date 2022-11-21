@@ -11,16 +11,17 @@
     box-shadow: 10px 10px 10px #949292;
 }
 
-#image {
+.cardStyle #image {
     display: flex;
     justify-items: center;
     align-items: center;
     background-repeat: no-repeat;
     background-size: 100%;
+    padding: 0;
 }
 
 img {
-    max-width: 100%;
+    width: 100%;
     height: 100%;
 }
 
@@ -34,8 +35,6 @@ span {
     align-items: center;
     flex-direction: column;
     width: 100%;
-    /* border: 1px solid black;
-    border-radius: 5px; */
 }
 
 #like-info {
@@ -110,15 +109,16 @@ span {
 .close-button {
     position: absolute;
     display: flex;
-    text-transform: bold;
+    font-weight: bold;
+    font-size: 1.2rem;
     text-align: center;
     color: red;
-    padding: 5px;
+    padding: 3px;
     border-radius: 40px;
     top: 0;
     right: 4px;
     cursor: pointer;
-    background: linear-gradient(145deg, #f0f0f088, #cacaca);
+    background: linear-gradient(145deg, #fafafa88, #ffffff);
     box-shadow: 20px 20px 60px #bebebe,
         -20px -20px 60px #ffffff;
 }
