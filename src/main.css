@@ -41,7 +41,10 @@
     transform: scale(1.1);
     -webkit-transform: scale(1.1);
     -moz-transform: scale(1.1);
-    -webkit-transition: transform 1s ease-in-out;
+
+    -webkit-transition: transform 1.05s ease-in-out;
+    -moz-transition: transform 1.05s ease-in-out;
+    -ms-transition: transform 1.05s ease-in-out;
 }
 
 .home-card h2 {
