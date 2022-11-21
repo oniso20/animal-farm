@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/animal-farm/static/css/main.cc4e41d4.css",
-    "main.js": "/animal-farm/static/js/main.d98f068e.js",
+    "main.css": "/animal-farm/static/css/main.127943eb.css",
+    "main.js": "/animal-farm/static/js/main.fc374f10.js",
     "index.html": "/animal-farm/index.html",
-    "main.cc4e41d4.css.map": "/animal-farm/static/css/main.cc4e41d4.css.map",
-    "main.d98f068e.js.map": "/animal-farm/static/js/main.d98f068e.js.map"
+    "main.127943eb.css.map": "/animal-farm/static/css/main.127943eb.css.map",
+    "main.fc374f10.js.map": "/animal-farm/static/js/main.fc374f10.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc4e41d4.css",
-    "static/js/main.d98f068e.js"
+    "static/css/main.127943eb.css",
+    "static/js/main.fc374f10.js"
   ]
 }
