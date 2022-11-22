@@ -8,22 +8,6 @@ import { animals } from "./data";
 import { emoji } from "./emoji";
 import Nav from "./Nav";
 
-let name = "cat";
-
-fetch("https://api.api-ninjas.com/v1/animals?name=" + name, {
-  method: "GET",
-  headers: { "X-Api-Key": "WfnBHl54F3e2t2Owl931pg==Nt7csde5hGRz0YK2" },
-  "Content-Type": "application/json",
-  success: function (result) {
-    console.log(result);
-  },
-  Cache: "default",
-})
-  .then((res) => res.json())
-  .then((data) => {
-    console.log(data);
-  });
-
 class Animals extends Component {
   state = {
     animals: animals,
