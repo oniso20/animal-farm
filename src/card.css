@@ -8,10 +8,11 @@
     height: 270px;
     margin: 1rem;
     background: linear-gradient(145deg, #f0f0f0, #cacacaa0);
-    box-shadow: 10px 10px 10px #949292;
+    box-shadow: 10px 10px 10px #21c3d85a;
 }
 
 .cardStyle #image {
+    position: relative;
     display: flex;
     justify-items: center;
     align-items: center;
@@ -125,4 +126,9 @@ span {
 
 .close-button:hover {
     background: linear-gradient(145deg, #f0f0f0, #cacaca);
+}
+
+.flipCard {
+    display: none;
+    position: absolute;
 }

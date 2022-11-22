@@ -6,6 +6,10 @@ nav {
     list-style-type: none;
 }
 
+a.active {
+    color: #bab9b9;
+}
+
 nav a {
     text-decoration: none;
     font-weight: bold;

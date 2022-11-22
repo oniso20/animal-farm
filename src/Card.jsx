@@ -4,6 +4,13 @@ const Card = (props) => {
   let heartSymbol = props.likes >= 0 ? "favorite" : "heart_broken";
   return (
     <div className="cardStyle">
+      <div className="flipCard">
+        <div className="flip-info">
+          <p>Name: </p>
+          <p>Specie: </p>
+          <p>Characteristics: </p>
+        </div>
+      </div>
       <div id="image">
         <img
           src={`https://source.unsplash.com/230x145/?${props.name}`}
