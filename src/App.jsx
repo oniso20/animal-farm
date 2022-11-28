@@ -12,10 +12,10 @@ const App = () => {
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/animal-farm" element={<Home />} />
-          <Route path="/animal-farm/animals" element={<Animals />} />
-          <Route path="/animal-farm/birds" element={<Birds />} />
-          <Route path="/animal-farm/about" element={<About />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/animals" element={<Animals />} />
+          <Route path="/birds" element={<Birds />} />
+          <Route path="/about" element={<About />} />
           <Route path="/*" element={<h3>Not Found</h3>} />
         </Routes>
       </BrowserRouter>

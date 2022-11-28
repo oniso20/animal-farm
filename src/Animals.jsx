@@ -64,19 +64,6 @@ class Animals extends Component {
         .includes(this.state.search.toLowerCase());
     });
 
-    // $.ajax({
-    //   method: "GET",
-    //   url: "https://api.api-ninjas.com/v1/animals?name=" + name,
-    //   headers: { "X-Api-Key": "WfnBHl54F3e2t2Owl931pg==Nt7csde5hGRz0YK2" },
-    //   contentType: "application/json",
-    //   success: function (result) {
-    //     console.log(result);
-    //   },
-    //   error: function ajaxError(jqXHR) {
-    //     console.error("Error: ", jqXHR.responseText);
-    //   },
-    // });
-
     const animalsList = animalFilter.map((animal) => {
       return (
         <Card
