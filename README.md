@@ -16,13 +16,13 @@ The animal farm project is an excellent exercise to deeply understand building c
 
 https://oniso20.github.io/animal-farm/
 
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Available Scripts
 
 In the project directory, you can run:
+
+### `npm install`
+
+This istalls the project dependencies to your local drive
 
 ### `npm start`
 
