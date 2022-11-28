@@ -14,7 +14,7 @@ The animal farm project is an excellent exercise to deeply understand building c
 
 **Visit the Animal Farm page:**
 
-https://oniso20.github.io/animal-farm/
+https://onis-animalfarm.netlify.app/
 
 ## Available Scripts
 
